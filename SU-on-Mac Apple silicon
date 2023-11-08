@@ -1,19 +1,16 @@
-{{ install_notes }}
+硬件环境：Macbook Pro M2 Max 
+软件环境：macOS Sonoma 
 
-1.  下载:
+1.  下载 Seismic Unix软件:
 
-    CPS 源码需要先填写申请表格才可以下载。
-    在 <http://www.eas.slu.edu/eqc/eqc_cps/CPS/cpslisc.html> 填写表格并提交。
-
-    % CPS 的源码也可以直接 http://www.eas.slu.edu/eqc/eqc_cps/ 的 download 目录下载
+    下载网址：
+    https://nextcloud.seismic-unix.org/index.php/s/LZpzc8jMzbWG9BZ
 
 2.  解压:
 
-    ```
-    $ tar -xvf NP330.Nov-08-2022.tgz
-    ```
+    $ tar -zxvf CWP_su_all_44R28.tgz
 
-    将解压得到的 {file}`PROGRAMS.330` 文件夹移至 {file}`~/src/` 目录下，并重命名为 {file}`CPS`
+    将解压得到的'src'文件夹移至想安装的目录下，并重命名为
 
     ```
     $ mkdir -p ~/src/
